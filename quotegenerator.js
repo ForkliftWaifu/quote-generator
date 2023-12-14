@@ -1,2 +1,10 @@
-const chapter1quote = "The Dao that can be trodden is not the enduring and unchanging Dao. The name that can be named is not the enduring and unchanging name. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things."
+const quote1 = "The Dao that can be trodden is not the enduring and unchanging Dao.";
+const quote2 = "The Dao is (like) the emptiness of a vessel; and in our employment of it we must be on our guard against all fulness.";
+const quote3 = "The skilful masters (of the Dao) in old times, with a subtle and exquisite penetration, comprehended its mysteries, and were deep (also) so as to elude men's knowledge.";
+const word1 = "Carrot";
+const word2 = "Violin";
+const word3 = "Ear";
+const person1 = "Albert Einstein";
+const person2 = "Beyonce";
+const person3 = "Barrack Obama";
 console.log(chapter1quote);
