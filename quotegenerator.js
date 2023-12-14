@@ -1,0 +1,2 @@
+const chapter1quote = "The Dao that can be trodden is not the enduring and unchanging Dao. The name that can be named is not the enduring and unchanging name. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things."
+console.log(chapter1quote);
