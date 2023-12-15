@@ -10,13 +10,17 @@ const person3 = "Barrack Obama";
 const quoteArray = [quote1, quote2, quote3];
 const wordArray = [word1, word2, word3];
 const personArray = [person1, person2, person3];
+const chosenQuote = quoteArray[randomize(quoteArray.length)];
+const chosenWord = wordArray[randomize(wordArray.length)];
+const chosenPerson = personArray[randomize(personArray.length)];
 
-const chosenQuote = quoteArray[Math.floor(Math.random() * quoteArray.length)];
-const chosenWord = wordArray[Math.floor(Math.random() * wordArray.length)];
-const chosenPerson = personArray[Math.floor(Math.random() * personArray.length)];
+function randomize(num) {
+    return Math.floor(Math.random() * num);
+}
 
 function randomQuote (quote, word, person) {
     let newQuote = quote.replaceAll('Dao', word)
     return newQuote + ' - ' + person;
 }
+
 console.log(randomQuote(chosenQuote, chosenWord, chosenPerson));
