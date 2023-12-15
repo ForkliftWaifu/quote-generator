@@ -7,7 +7,7 @@ and atrributing it to a **random** historical figure.
 
 The data for this project is stored inside **arrays** inside the program itself.
 
-## RANDOM SELECTION##
+## RANDOM SELECTION
 
 The project selects the random data to return by using a **random number generator.**
 
