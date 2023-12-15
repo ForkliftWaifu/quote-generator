@@ -3,7 +3,7 @@
 This program generates a **random** silly quote by changing the word 'Dao' inside a quote from the Dao De Jing
 and atrributing it to a **random** historical figure.
 
-## DATA STORAGE##
+## DATA STORAGE
 
 The data for this project is stored inside **arrays** inside the program itself.
 
