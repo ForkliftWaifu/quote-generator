@@ -7,4 +7,13 @@ const word3 = "Ear";
 const person1 = "Albert Einstein";
 const person2 = "Beyonce";
 const person3 = "Barrack Obama";
-console.log(chapter1quote);
+const quoteArray = [quote1, quote2, quote3];
+const wordArray = [word1, word2, word3];
+const personArray = [person1, person2, person3];
+
+const chosenQuote = quoteArray[Math.floor(Math.random() * 3)];
+const chosenWord = wordArray[Math.floor(Math.random() * 3)];
+const chosenPerson = personArray[Math.floor(Math.random() * 3)];
+console.log(chosenQuote);
+console.log(chosenWord);
+console.log(chosenPerson);
